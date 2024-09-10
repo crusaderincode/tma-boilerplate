@@ -4,7 +4,7 @@ import {
 	mockTelegramEnv,
 	parseInitData,
 	retrieveLaunchParams,
-} from '@tma.js/sdk'
+} from '@telegram-apps/sdk'
 import { useEffect } from 'react'
 
 export const MockTelegram = () => {

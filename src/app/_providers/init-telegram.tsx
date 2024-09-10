@@ -1,4 +1,4 @@
-import { useMiniApp, useViewport } from '@tma.js/sdk-react'
+import { useMiniApp, useViewport } from '@telegram-apps/sdk-react'
 
 export const InitTelegram = () => {
 	const ma = useMiniApp(true)

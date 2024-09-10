@@ -1,11 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui";
-import { useLaunchParams } from "@tma.js/sdk-react";
+import { useLaunchParams } from '@telegram-apps/sdk-react'
 
 
 export default function Home() {
-  const lp = useLaunchParams()
+  const lp = useLaunchParams(true)
 
   return (
 			<div className="flex flex-col items-center justify-center p-2 text-lg text-center gap-y-3">

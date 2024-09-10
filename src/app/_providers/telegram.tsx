@@ -1,6 +1,6 @@
 'use client'
 
-import { SDKProvider } from '@tma.js/sdk-react'
+import { SDKProvider } from '@telegram-apps/sdk-react'
 import type { PropsWithChildren } from 'react'
 import { InitTelegram } from './init-telegram'
 import { MockTelegram } from './mock-telegram'
